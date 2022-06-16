@@ -1,0 +1,191 @@
+@media(max-width:769px)
+
+    {
+    .buttomheader {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: black;
+        padding: 0rem 0rem .1rem .1rem;
+        margin: 0rem;
+
+
+    }
+
+    
+
+    .buttommaq {
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        list-style-type: none;
+        flex: 20rem;
+        margin: 0, 0, 20rem, 20rem;
+        padding: 0rem, 0rem, 30rem, 30rem;
+    }
+
+    .buttommaq .li .btm {
+        display: flex;
+        justify-content: space-between;
+        flex: 50%;
+        margin-left: 30rem;
+        padding: 0rem, 0rem, 30rem, 30rem
+    }
+
+    .buttomheader h1 {
+        color: white;
+        justify-content: space-between;
+        display: flex;
+        flex: 30rem;
+      margin-left: 6rem;
+
+    }
+
+    .buttomheader li a {
+        margin-left: 7rem;
+       text-align: center;
+
+    }
+
+    .social i {
+        color: white;
+        margin: 1rem;
+        position: relative;
+        left: 6rem;
+    }
+
+    .footerimg {
+        position: relative;
+        top: -6rem;
+    }
+
+    .footerdev {
+        text-align: center;
+        background-color: black;
+    }
+
+    .footerdev p {
+        color: white;
+    }
+
+    /*Testimonial Stories*/
+
+    .testi {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0rem, auto;
+        padding: 5rem;
+    }
+
+
+/*header area and Hero section*/
+.tophead{display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #121213;
+    flex: 80%;
+    padding: 0rem 0rem 5rem 5rem;
+    margin: 0rem;
+}
+.tophead .navlink li a{
+    text-decoration: none;
+    list-style-type: none;
+}
+.buttomhead li a{
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style-type: none;
+    flex: 1rem;
+}
+.tophead .logomain{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 3rem;
+    flex: 80%;
+    color: white;
+    justify-content: space-between;
+}
+.navlink{
+    display: flex;
+ justify-content: space-between ;
+    flex: 30%;
+    list-style-type: none;
+    text-decoration: none;
+    text-emphasis-color: red;
+    font-family: 'Segoe UI';
+
+}
+.navlink li a{
+    margin-top: 0rem;
+    margin-right: 3rem;
+    color: white;
+   font-size: larger;
+    justify-content: space-around;
+}
+.hr{
+    border: 2px solid rgb(20, 100, 100);
+
+}
+
+.main{display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.heroimg img{
+    width: 20rem;
+    align-content: center;
+    border-radius: 90rem;
+    margin-top: 10rem;
+    margin-left: 2.5rem;
+    flex-direction: column;
+}
+.moreword{
+    justify-content: flex;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+    padding: 1rem 1rem;
+}
+.logomain{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex: 80%;
+    color: white;
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+.herotext p{
+    margin-top: 2rem;
+   margin-right: 1rem;
+  
+}
+    
+.paga{
+    text-align: center;
+}
+    
+.buttommaq .li .btm{
+    display: flex;
+    
+    justify-content: space-between;
+    flex: 50%;
+    margin-left: 30rem;
+    padding: 0rem, 0rem, 30rem, 30rem
+}
+    }

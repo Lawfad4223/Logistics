@@ -1,0 +1,216 @@
+*{margin: 0%;
+padding: 0%;
+}
+
+
+a{text-decoration: none;}
+ul{list-style-type: none;}
+.tophead{display: flex;
+    justify-content: space-between;
+    background-color: #121213;
+    flex: 80%;
+    padding: 0rem 0rem 5rem 5rem;
+    margin: 0rem;
+}
+.tophead .navlink li a{
+    text-decoration: none;
+    list-style-type: none;
+}
+.buttomhead li a{
+    text-decoration: none;
+    list-style-type: none;
+
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style-type: none;
+    flex: 1rem;
+}
+.logomain{
+    display: flex;
+    flex: 80%;
+    color: white;
+    justify-content: space-between;
+}
+.navlink{
+    display: flex;
+ justify-content: space-between ;
+    flex: 30%;
+    list-style-type: none;
+    text-decoration: none;
+    text-emphasis-color: red;
+    font-family: 'Segoe UI';
+
+}
+.navlink li a{
+    margin-top: 0rem;
+    margin-right: 3rem;
+    color: white;
+   font-size: larger;
+    justify-content: space-around;
+}
+.hr{
+    border: 2px solid rgb(20, 100, 100);
+
+}
+
+.main{display: flex;
+    justify-content: space-around;
+
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+}
+.pp{font-size: 1rem;}
+.herotext p{
+    border-radius: 50rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.paga{
+    font-size: 3rem;
+}
+    
+.heroimg img{
+    border-radius: 90rem;
+    margin-top: 10rem;
+}
+.body{
+    background-image: url(image/51-517108_bright-background-vector-png-peoplepng-vector-png-background.png);
+    background-size: cover;
+}
+/* ABOUT */
+.moreword{
+    justify-content: flex;
+    display: flex;
+    width: 75%;
+    margin: auto;
+    padding: 1rem 1rem;
+}
+.first{
+    margin:0 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.po{
+    margin: 2rem 0rem;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+}
+
+.second{
+    margin: 0 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.second p{
+    margin: 1.8rem;
+}
+.popo{
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: red;
+}
+.third{
+    margin: 0 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.third p{
+    margin: 1rem;
+}
+.popopo{
+    font-size: 1rem;
+    color: red;
+}
+.fas{
+    text-align: center;
+}
+/*------------------------------footer-------------------------- */
+.buttomheader{
+  display: flex;
+        justify-content: space-around;
+        background-color: black;
+        padding: 0rem 0rem .1rem .1rem;
+        margin:0rem;
+   
+    
+}
+.footerimg{
+    border-image: 50%;
+    width: 20rem;
+    position: relative;
+    top: -2rem;
+}
+
+.buttommaq{
+    display: flex;
+justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+    flex: 20rem;
+    margin: 0,0,20rem ,20rem;
+    padding: 0rem, 0rem, 30rem, 30rem;
+}
+.buttommaq .li .btm{
+    display: flex;
+    justify-content: space-between;
+    flex: 50%;
+    margin-left: 30rem;
+    padding: 0rem, 0rem, 30rem, 30rem
+}
+
+.buttomheader h1{
+    color: white;
+    justify-content:space-between;
+    display: flex;
+    flex: 30rem;
+    margin: .9rem;
+
+}
+.buttomheader li a{
+    margin: 1rem;
+    padding: 0rem;
+    color: white;
+    font-size: .9rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.social i{
+    color: white;
+    margin: .1rem;
+    position: relative;
+    left: .9rem;
+}
+.footerimg{
+    position: relative;
+    top: -6rem;
+}
+.footerdev{
+    text-align: center;
+    background-color: black;
+}
+.footerdev p{
+    color: white;
+}
+/*Testimonial Stories*/
+
+.testi{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0rem,auto;
+    padding: 5rem;
+}
+
+.social i:hover{
+    transform: scale(1.5);
+}
+.social i{
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
